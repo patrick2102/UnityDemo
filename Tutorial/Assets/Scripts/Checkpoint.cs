@@ -18,18 +18,6 @@ public class Checkpoint : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        var gameObject = collision.gameObject;
 
-        //if (gameObject.GetComponent<EnemyAI>() != null)
-        //{
-        //    Debug.Log("Enemy AI triggered checkpoint!");
-        //    activated = true;
-        //}
-
-        var participant = gameObject.GetComponent<Participant>();
-        if (participant != null)
-        {
-            participant.EnterCheckpoint(this);
-        }
     }
 }

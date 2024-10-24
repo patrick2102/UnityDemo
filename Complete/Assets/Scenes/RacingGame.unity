@@ -695,6 +695,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 687434b2e3890104eab43d20e33c1495, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  currentCheckpoint: {fileID: 0}
 --- !u!1 &279446815
 GameObject:
   m_ObjectHideFlags: 0
@@ -5292,7 +5293,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 2105322632}
-  speed: 40
+  speed: 30
   rotationSpeed: 4
 --- !u!114 &2105322635
 MonoBehaviour:
@@ -5306,6 +5307,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 687434b2e3890104eab43d20e33c1495, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  currentCheckpoint: {fileID: 0}
 --- !u!1001 &8709429888436239897
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -13,9 +13,6 @@ public class GameManager : MonoBehaviour
     [SerializeField]
     public Checkpoint[] checkpoints;
 
-    [SerializeField]
-    public Participant participants; 
-
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {

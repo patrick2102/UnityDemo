@@ -23,19 +23,7 @@ public class Participant : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (currentCheckpoint.activated)
-        {
-            var lastIndex = checkpoints.Length - 1;
-            if (currentCheckpoint == checkpoints[lastIndex])
-            {
-                finished = true;
-            }
-            else
-            {
-                currentIndex += 1;
-                currentCheckpoint = checkpoints[currentIndex];
-            }
-        }
+
     }
 
 
